@@ -1,6 +1,7 @@
 import { useRef } from "react";
-import { counterActions, privacyActions } from "../store";
 import { useDispatch } from "react-redux";
+import { counterActions } from "../store/counter";
+import { privacyActions } from "../store/privacy";
 
 const Controls = () => {
   const dispatch = useDispatch();
